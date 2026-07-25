@@ -2,7 +2,7 @@
 class SoulseekRs < Formula
   desc "Soulseek client in Rust"
   homepage "https://re-invention.nl/soulseek-rs/"
-  version "0.0.0-BROKEN"
+  version "7.0.0"
   license "MIT"
 
   on_macos do
