@@ -2,28 +2,28 @@
 class SoulseekRs < Formula
   desc "Soulseek client in Rust"
   homepage "https://re-invention.nl/soulseek-rs/"
-  version "7.0.0"
+  version "7.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/michel/soulseek-rs/releases/download/v7.0.0/soulseek-rs-v7.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "dcd1c183207c24191abce3df99455886f410d1f55462be8b7b81236b9e9ad36a"
+      url "https://github.com/michel/soulseek-rs/releases/download/v7.1.0/soulseek-rs-v7.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "2fefd4aa2a9c674b67a4b1a2e7c1f7a90e586704fb4c4f61f608433626dac335"
     end
     on_intel do
-      url "https://github.com/michel/soulseek-rs/releases/download/v7.0.0/soulseek-rs-v7.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "4cdd0b742d612da87fd6c6a2ec13a12e9d71a666ee3f66cd8e0dac6a381b2b1d"
+      url "https://github.com/michel/soulseek-rs/releases/download/v7.1.0/soulseek-rs-v7.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "2a9db49274617bc66ea4e28402510910ccb951bba0b2c519f591dc71ceb972b9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/michel/soulseek-rs/releases/download/v7.0.0/soulseek-rs-v7.0.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5b870ab45047bf74cb4c49273291480eeca633f8ac06046f82146bbbf57fbfaf"
+      url "https://github.com/michel/soulseek-rs/releases/download/v7.1.0/soulseek-rs-v7.1.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ac38db51566c1010b98a7a72546277c4a0fef303de2e79bb14431a0d7447e5cb"
     end
     on_intel do
-      url "https://github.com/michel/soulseek-rs/releases/download/v7.0.0/soulseek-rs-v7.0.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "fb83ad89ce6cf71d1f50a637b0d42b0c1da6c43f28944902d4f6e369d571b3a8"
+      url "https://github.com/michel/soulseek-rs/releases/download/v7.1.0/soulseek-rs-v7.1.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "4581230b94bc85045147e592f601d70eebaf33a808cce99174850a0f3c0bd79f"
     end
   end
 
