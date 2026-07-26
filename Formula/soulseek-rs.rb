@@ -2,28 +2,28 @@
 class SoulseekRs < Formula
   desc "Soulseek client in Rust"
   homepage "https://re-invention.nl/soulseek-rs/"
-  version "9.1.0"
+  version "10.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/michel/soulseek-rs/releases/download/v9.1.0/soulseek-rs-v9.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8c2fe2f2412a2e791f924506bcfdde6108300375e32f283c59b07fc19aca0edb"
+      url "https://github.com/michel/soulseek-rs/releases/download/v10.0.0/soulseek-rs-v10.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "085b77f365b42d778ba03922c3f70f50acc5c92c895d6603c83bee6def59cb60"
     end
     on_intel do
-      url "https://github.com/michel/soulseek-rs/releases/download/v9.1.0/soulseek-rs-v9.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ee072dbc350b4891b5e225465808ce252229c26b9a62cab47feedf98d6ef6d6e"
+      url "https://github.com/michel/soulseek-rs/releases/download/v10.0.0/soulseek-rs-v10.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d6b13383ec4077a0342065ee2139f490026db1aad0629e1cf4ec2579699af15d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/michel/soulseek-rs/releases/download/v9.1.0/soulseek-rs-v9.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e2009bb49d2cdb8f670e14f59cb36bab27924359745e0e7925489097f22d17ee"
+      url "https://github.com/michel/soulseek-rs/releases/download/v10.0.0/soulseek-rs-v10.0.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "305c9863daa1cb0fd9a71660e163e38df52e2e17f7f426968933b796c6a83a33"
     end
     on_intel do
-      url "https://github.com/michel/soulseek-rs/releases/download/v9.1.0/soulseek-rs-v9.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "a85209122245c921f0d0fe25aa0169d21398c925cb4bb183f2e2c47b21d833ee"
+      url "https://github.com/michel/soulseek-rs/releases/download/v10.0.0/soulseek-rs-v10.0.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "b16469842788ad4b6e5884bf7c6085f2509db72435d285b876f8b5ccaacb23d7"
     end
   end
 
