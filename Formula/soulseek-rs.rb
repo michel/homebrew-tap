@@ -5,6 +5,11 @@ class SoulseekRs < Formula
   version "19.0.0"
   license "MIT"
 
+  head do
+    url "https://github.com/michel/soulseek-rs.git", branch: "develop"
+    depends_on "rust" => :build
+  end
+
   on_macos do
     on_arm do
       url "https://github.com/michel/soulseek-rs/releases/download/v19.0.0/soulseek-rs-v19.0.0-aarch64-apple-darwin.tar.gz"
@@ -28,7 +33,10 @@ class SoulseekRs < Formula
   end
 
   def install
-    bin.install "soulseek-rs"
+    return bin.install "soulseek-rs" unless build.head?
+
+    ENV["SOULSEEK_RS_VERSION"] = version.to_s
+    system "cargo", "install", *std_cargo_args(path: "soulseek-rs")
   end
 
   test do
