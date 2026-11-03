@@ -2,7 +2,7 @@
 class SoulseekRs < Formula
   desc "Soulseek client in Rust"
   homepage "https://re-invention.nl/soulseek-rs/"
-  version "19.1.0"
+  version "20.0.0"
   license "MIT"
 
   head do
@@ -12,23 +12,23 @@ class SoulseekRs < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/michel/soulseek-rs/releases/download/v19.1.0/soulseek-rs-v19.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "80d201fc633077fdb085dd16ad721f0c6806425f7901b32a05f7f6e3066a31d9"
+      url "https://github.com/michel/soulseek-rs/releases/download/v20.0.0/soulseek-rs-v20.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "77204b825c241a5999091cf6493d29d01cb481c9f4dbdd4eab6a38ebce275946"
     end
     on_intel do
-      url "https://github.com/michel/soulseek-rs/releases/download/v19.1.0/soulseek-rs-v19.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1871468380c4b6e106ec5510355b38994290ba4ceed013dc001b555a1334dcf7"
+      url "https://github.com/michel/soulseek-rs/releases/download/v20.0.0/soulseek-rs-v20.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "4a002130af3245e698e3970171ee689b940e944e96f4c462dbb9aa31b2b81cb4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/michel/soulseek-rs/releases/download/v19.1.0/soulseek-rs-v19.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "38da025790204a4409786060bb3a385f108c156161fa087d6e9bef202c4f3af2"
+      url "https://github.com/michel/soulseek-rs/releases/download/v20.0.0/soulseek-rs-v20.0.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9391217865f54a57903de986a9e0106fed8d8c1acb6bfcd64aeef63120c410ba"
     end
     on_intel do
-      url "https://github.com/michel/soulseek-rs/releases/download/v19.1.0/soulseek-rs-v19.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "cb7be94ac466fc9503e954707e579fdfd66e717569db3aa67f8469b2da5a94fc"
+      url "https://github.com/michel/soulseek-rs/releases/download/v20.0.0/soulseek-rs-v20.0.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "56ec6af6de5393e2ba6cd9879c7708d0b4fdb8253587ae9f5571571f708296bc"
     end
   end
 
